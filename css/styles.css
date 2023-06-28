@@ -10,6 +10,7 @@
     --cornflowe: #E7E9FC;
     --gray: rgba(46, 47, 66, 0.70) ;
     --lightslate: #8E8F99;
+    --ocean: #404BBF;
     --primary-font: 'Roboto', sans-serif;
     --indent: 24px;
     --items: 3;
@@ -375,6 +376,27 @@ header{
     
 }
 
+.conreiner-icon-team{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--brand-iris-color);
+
+}
+
+.link-icon-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 8px;
+}
+
+.icon-team{
+    width: 12px;
+    height: 12px;
+}
+
 .customers-title{
     padding-top: 120px;
     padding-bottom: 72px;
@@ -394,6 +416,7 @@ header{
     border: 1px solid var(--lightslate, #8E8F99);
 }
 
+
 .customers-link{
     display: flex;
     align-items: center;
@@ -402,7 +425,7 @@ header{
 }
 
 .icon-customers{
-    fill: var(--brand-color);
+    fill: var(--lightslate);
 }
 
 .footer{
