@@ -376,12 +376,23 @@ header{
     
 }
 
-.conreiner-icon-team{
+.list-icon-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--brand-iris-color);
+    background-color: var(--logo-web-color);
+    position: relative;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
+
+.list-icon-team:hover{
+    background-color: var(--ocean);
 }
 
 .link-icon-team{
@@ -393,8 +404,7 @@ header{
 }
 
 .icon-team{
-    width: 12px;
-    height: 12px;
+   
 }
 
 .customers-title{
@@ -410,10 +420,11 @@ header{
 }
 
 .conteiner-icon-customers{
-    width: 168px;
-    height: 88px;
-    border-radius: 4px;
-    border: 1px solid var(--lightslate, #8E8F99);
+
+}
+
+.icon-customers{
+    fill: var(--lightslate);
 }
 
 
@@ -422,11 +433,21 @@ header{
     align-items: center;
     justify-content: center;
     padding: 16px 32px;
-}
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
+    border: 1px solid var(--lightslate, #8E8F99);
+  }
 
-.icon-customers{
-    fill: var(--lightslate);
-}
+
+  .icon-customers:hover{
+    fill:var(--ocean);
+  }
+
+  .customers-link:hover{
+    border-color: var(--ocean);
+  }
+
 
 .footer{
     background-color: var(--secondry-brand-color);
@@ -507,4 +528,23 @@ header{
 
 .title-gallery{
     margin-bottom: 8px 
+}
+
+.footer-boxes{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+.footer-p-sm{
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--drand-white-color);
+}
+
+.footer-content{
+    margin-right: 120px;
 }
