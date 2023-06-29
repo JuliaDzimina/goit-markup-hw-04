@@ -156,12 +156,26 @@ header{
     padding: 24px 0;
 }
 
-.nav-list{
+.nav-link{
+    position: relative;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondry-brand-color);
     padding: 24px 0;
+}
+
+.nav-link.active::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--ocean);
+    border-radius: 2px;
 }
 
 .address{
