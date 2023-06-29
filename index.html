@@ -53,7 +53,7 @@
      <section class="hero section"> 
         <div class="container">
             <h1 class="main-title">Effective Solutions for Your Business</h1>
-            <button class="button-title" type="button"> Order Service </button>
+            <button class="button-title" type="button" data-modal-open> Order Service </button>
         </div>
      </section>
 
@@ -290,7 +290,7 @@
 
     <!--Section 4-->
      <section class="section">
-            <div class="conteiner">
+            <div class="container">
                 <h2 class="second-title customers-title"> Customers</h2>
                 <ul class="customers">
                     <li class="conteiner-icon-customers">
@@ -342,8 +342,6 @@
 
      </section>
 
-    
-
    </main>
 
    <footer class="footer">
@@ -392,6 +390,19 @@
 
   </footer>
 
+  <!--Modal window-->
+  <div class="backdrop" data-modal>
+    <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+            <svg class="modal-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+        </button>
+
+    </div>
+  </div>
+
+  <script src="./js/modal.js"></script>
 </body> 
 </html>
 
