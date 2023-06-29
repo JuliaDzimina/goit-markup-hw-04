@@ -11,6 +11,7 @@
     --gray: rgba(46, 47, 66, 0.70) ;
     --lightslate: #8E8F99;
     --ocean: #404BBF;
+    --hover-icon-footer: #31D0AA;
     --primary-font: 'Roboto', sans-serif;
     --indent: 24px;
     --items: 3;
@@ -192,6 +193,8 @@ header{
 
 
 /*main*/
+/*hero section*/
+
 .hero{
     background-color: var(--secondry-brand-color);
     padding-top: 188px;
@@ -253,6 +256,8 @@ header{
     background-color: var(--hover-focus-color);
 }
 
+/* section one*/
+
 .third-title{
     font-weight: 500;
     font-size: 20px;
@@ -310,6 +315,8 @@ header{
     
 }
 
+/*section two*/
+
 .work-title{
    /* padding-bottom: 72px;*/
    margin-bottom: 72px;
@@ -323,6 +330,8 @@ header{
 .work-image{
     width: calc((100% - 48px) / 3);
 }
+
+/*Section three - TEAM*/
 
 .section-team{
     background-color: var(--cloud-color);
@@ -407,6 +416,8 @@ header{
    
 }
 
+/* Section four - customers*/
+
 .customers-title{
     padding-top: 120px;
     padding-bottom: 72px;
@@ -449,6 +460,8 @@ header{
   }
 
 
+  /*FOOTER*/
+
 .footer{
     background-color: var(--secondry-brand-color);
     padding-top: 100px;
@@ -468,6 +481,51 @@ header{
     color: var(--cloud-color);
     width: 264px;
 }
+
+.footer-boxes{
+    display: flex;
+    
+}
+
+
+.footer-p-sm{
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--drand-white-color);
+    padding-bottom: 16px;
+}
+
+.footer-content{
+    margin-right: 120px;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.footer-list-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--logo-web-color);
+    position: relative;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-list-icon:hover{
+    background-color: var(--hover-icon-footer);
+}
+    
+
+/*PAGE PORTFOLIO*/
+
 
 .button-portfolio{
     font-weight: 500;
@@ -530,21 +588,5 @@ header{
     margin-bottom: 8px 
 }
 
-.footer-boxes{
-    display: flex;
-    align-items: center;
-    
-    
-}
 
-
-.footer-p-sm{
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    color: var(--drand-white-color);
-}
-
-.footer-content{
-    margin-right: 120px;
 }
