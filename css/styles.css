@@ -676,9 +676,7 @@ header{
 
 .overlay-position{
     
-    position: relative;
-    width: calc((100%-var(--indent)*(var(--items-1)))/var(--items));
-    overflow:hidden;
+   
 }
 
 .overlay-position:hover .overlay{
@@ -686,6 +684,9 @@ header{
    
 }
 .wrapper-img{
+     position: relative;
+    width: calc((100%-var(--indent)*(var(--items-1)))/var(--items));
+  
     overflow: hidden;
 }
 
